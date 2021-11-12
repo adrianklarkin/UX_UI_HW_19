@@ -1,0 +1,172 @@
+body
+{
+    background-color: black;
+    overflow-x: hidden;
+}
+.container 
+{ 
+    width: 100%; 
+}
+.menu 
+{
+    float: right;
+}
+.menu-item 
+{
+    display: inline;
+    color: #FEC165;
+    margin-right: 50px;
+    border: solid 1px #000000;
+}
+.menu-item:hover
+{
+    cursor: pointer;
+    border: solid 1px #FEC165;
+}
+
+.underline 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    border: solid 1px #FEC165;
+}
+#glasses 
+{
+    float: left;
+    margin-left: 20px;
+}
+#adrian
+{
+    position: absolute;
+    width: 425px;
+    height: 255px;
+    left: 43px;
+    top: 311px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: 0.15px;
+    border-bottom: solid 10px #FEC165;
+    color: #E5E5E5;
+}
+#photo
+{
+    position: absolute;
+    width: 799px;
+    height: 1327px;
+    left: 286px;
+    top: -196px;
+    background: url(../images/Headshot.png);
+    z-index: -1000;
+}
+#intro
+{
+    position: absolute;
+    width: 453px;
+    height: 436px;
+    left: 967px;
+    top: 250px;
+    border: 1px solid #FEC165;
+    box-sizing: border-box;
+}
+.intro-text
+{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    /* or 50% */
+    letter-spacing: 4.15px;
+    color: #FFFFFF;
+}
+.about-text
+{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 41px;
+    /* or 104% */
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+.detail-text
+{
+    font-family: Fira Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 36px;
+    /* or 144% */
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+#facebook
+{
+    position: absolute;
+    width: 53.45px;
+    height: 53.45px;
+    left: 42px;
+    top: 891.77px;
+}
+#facebook:hover
+{
+    filter: brightness(0) invert(1);
+}
+#instagram
+{
+    position: absolute;
+    width: 53.45px;
+    height: 53.45px;
+    left: 131.84px;
+    top: 891.77px;
+}
+#instagram:hover
+{
+    filter: brightness(0) invert(1);
+}
+#linkedin
+{
+    position: absolute;
+    width: 53.45px;
+    height: 53.45px;
+    left: 220.55px;
+    top: 891.77px;
+}
+#linkedin:hover
+{
+    filter: brightness(0) invert(1);
+}
+#mystory
+{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 977px;
+    top: 894px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 60% */
+    letter-spacing: 0.15px;
+    color: #FEC165;
+}
+#mystory:hover #arrow
+{
+    display:block;
+    cursor: pointer;
+}
+#arrow
+{
+    display: none;
+    margin-top: -30px;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
