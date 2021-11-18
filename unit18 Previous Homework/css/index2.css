@@ -1,0 +1,177 @@
+body{
+    background-color: #000000;
+}
+h1{
+    color: #FEC165;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35pt;
+}
+h3{
+    color: #FEC165;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18pt;
+}
+h4{
+    color: #FEC165;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16pt;
+    line-height: 10px;
+}
+p{
+    color: #FEC165;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-size: 14pt;
+    font-weight: 300;
+}
+button
+{
+    padding: 5px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+}
+.centeredText {
+    text-align: center;
+}
+
+.centeredImage {
+    margin: auto;
+    display: block;
+    background-color: #ffffff;
+}
+.imgsizefix
+{
+    max-width: 250px;
+}
+.flexContainer {
+    display:flex;
+}
+
+.flexChild {
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.workGrid {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.tribi {
+    flex-basis: 33%;
+    margin-bottom: 50px;
+
+}
+.tribiDetail
+{
+    flex-basis: 67%;
+    margin-bottom: 50px;
+}
+.fillheart
+{
+    grid-area: fillheart;
+    flex-basis: 33%;
+    margin-bottom: 50px;
+}
+.fillheartDetails
+{
+    grid-area: fillheartDetails;
+    flex-basis: 67%;
+    margin-bottom: 50px;
+}
+.travel
+{
+    grid-area: travel;
+    flex-basis: 33%;
+    margin-bottom: 50px;
+}
+.travelDetails
+{
+    grid-area: travelDetails;
+    margin-bottom: 50px;
+}
+.viewProjects
+{
+    grid-area: viewProjects;
+}
+.myWork
+{
+    padding-top: 100px;
+    background-color: white;
+}
+
+.mySkills {
+    margin-top: 1200px;
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+}
+.flexContainer {
+    display:flex;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        
+        flex-direction: column;
+    }
+    
+    .flexChild {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-areas: 
+        'tribi tribiDetails'
+        'fillheart fillheartDetails'
+        'travel travelDetails'
+        'viewProjects viewProjects';
+    }
+
+    .tribi {
+        grid-area: tribi;
+        flex-basis: 33.3%;
+    }
+    .tribiDetails
+    {
+        grid-area: tribiDetails;
+    }
+    .fillheart
+    {
+        grid-area: fillheart;
+    }
+    .fillheartDetails
+    {
+        grid-area: fillheartDetails;
+    }
+    .travel
+    {
+        grid-area: travel;
+    }
+    .travelDetails
+    {
+        grid-area: travelDetails;
+    }
+    .viewProjects
+    {
+        grid-area: viewProjects;
+    }
+    .myWork
+    {
+        margin-top: 100px;
+    }
+  }
